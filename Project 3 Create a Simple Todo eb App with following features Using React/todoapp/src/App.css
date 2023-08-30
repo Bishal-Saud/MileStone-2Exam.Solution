@@ -1,0 +1,36 @@
+#bigBox{
+    display: flex;
+    justify-content: center;
+}
+
+#dataEnterBox{
+border: 1px solid black;
+padding: 1rem;
+background-color: white;
+margin:2rem 0;
+}
+
+#inputData{
+border: none;
+outline: none;
+    width: 16rem;
+    height: 2rem;
+    padding: 1px 18px;
+
+}
+#addTodo{
+    width: 8rem;
+    height: 33px;
+    margin: 0 14px;
+    background-color: #80008099;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* Card Box */
+
+#bigBoxCard{
+    display: flex;
+    flex-wrap: wrap;
+}

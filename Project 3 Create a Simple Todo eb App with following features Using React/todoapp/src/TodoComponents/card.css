@@ -1,0 +1,27 @@
+.card{
+    border: 1px solid;
+    width: 15rem;
+    height: 13rem;
+    padding: 2rem;
+    margin: 0 3rem;
+    background-color: #5a426f;
+    color: white;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.update,.delete{
+    margin: 6px 0;
+    height: 3rem;
+    background-color: #6492ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}

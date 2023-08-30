@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(46 38 84);
+    color: white;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp-search{
+    width: 35rem;
+    height: 3rem;
+    padding: 0px 2rem;
+    text-align: center;
+}
+/* card */
+
+.movie-card {
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #2d00607f;
+}
+
+#cardBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-card img{
+    width: 195px;
+    height: 194px;
+}
+
+button{
+    background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 14rem;
+}
+button:hover,
+button:focus {
+  background-color: #F082AC;
+}
+
+
+@media screen and (max-width: 684px) {
+    #inp-search {
+        width: 16rem;
+    }
+    
+}
+
+@media screen and (max-width: 315px) {
+    #inp-search {
+        width: 10rem;
+    }
+    
+}
